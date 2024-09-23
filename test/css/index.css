@@ -1,0 +1,63 @@
+#main{
+    text-align: center;
+}
+#main h1{
+    color:blue;
+}
+#main div h1{
+    color: rgb(51, 90, 28);
+}
+#main div form{
+    background: #1fbec0;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#main div form input{
+    height: 20px;
+}
+#main div form button{
+    background: blue;
+    color: #fff;
+    border-radius: 4px;
+}
+#main div form button:hover{
+    cursor: pointer;
+}
+#main div ul{
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+#main div ul li{
+    margin-bottom: 24px;
+    font-size: 22px;
+}
+
+#main div ul li button.cmt{
+    margin-right: 16px;
+    border: 1px solid #188d20 ;
+    color: #188d20;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+#main div ul li button.cmt:hover{
+    cursor: pointer;
+    background: #87cb8b;
+}
+#main div ul li button.dlt{
+    margin-left: 16px;
+    border: 1px solid #8d1818 ;
+    color: #8d1818;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+#main div ul li button.dlt:hover{
+    cursor: pointer;
+    background: #cb8787;
+}
+#main div ul li.complete{
+    color: #188d20;
+    text-decoration: line-through;
+}
