@@ -1,0 +1,188 @@
+body{
+    
+    margin: 0;
+    
+}
+
+
+/* @keyframes bg {
+    0% { background-color: red; }
+    50% { background-color: yellow; }
+    100% { background-color: green; }
+} */
+
+
+h1{
+    margin: 0;
+}
+#first{
+    font-size: 100px;
+}
+
+div.main{
+    /* animation: bg 5s infinite;  */
+}
+
+body div div.ai img{
+    margin: 18px 20px 40px 10px;
+    padding: 30px 18px;
+    border: 4px solid #c32020;
+    border-radius: 50%;
+ } 
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right,#000,#22d11ffe,#000);
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left:0px;
+    z-index: 2;
+}
+
+h1.co{
+    color: #c32020;
+}
+
+header div.left{
+    width: 6% ;
+}
+header div.left h1 a{
+    display: block;
+    width: 100%;
+}
+header div.left h1 a img{
+    display: block;
+    width: 100%;
+}
+header div.right a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+div.middle{
+    position: relative;
+}
+
+header div.middle span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #e11b1b;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right:-10px;
+}
+footer{
+    background: #000;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 10px;
+}
+footer h1{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+footer div {
+    display: flex;
+    flex-direction:column;
+}
+footer div a{
+    color: #fff;
+    display: inline;
+    margin-bottom: 10px;
+    font-size: 10px;
+
+}
+
+div.main{
+    text-align: center;
+    padding: 20px;
+}
+
+div.main div.add input{
+    padding:4px 10px;
+    border-radius: 10px;
+
+}
+
+div.main div.add button{
+    color: #284083;
+    background: #b4bdd5;
+    border: 1px solid #284083 ;
+    padding: 4px 8px;
+    border-radius: 10px;
+
+}
+h2{
+    margin: 0;
+}
+div.main div.add button:hover{
+    background: #556ba6;
+    cursor: pointer;
+}
+#em{
+    color: red;
+}
+
+div.main ul{
+    list-style: none;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 18px;
+    height: 360px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+div.main ul li{
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.main ul li button.com{
+    color: #308328;
+    background: #b6d5b4;
+    border: 1px solid #2e8328 ;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+div.main ul li button.com:hover{
+    background: #629f5c;
+    cursor: pointer;
+}
+
+div.main ul li button.del{
+    color: #832828;
+    background: #d5b4b4;
+    border: 1px solid #832828 ;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+div.main ul li button.del:hover{
+    background: #9f5c5c;
+    cursor: pointer;
+}
+
+div.main ul li.co h2{
+    color: #47d53a;
+    text-decoration: line-through;
+}
+
+div.main ul li.co button.com{
+    visibility: hidden;
+}
